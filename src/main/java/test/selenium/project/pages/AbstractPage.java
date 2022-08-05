@@ -3,8 +3,6 @@ package test.selenium.project.pages;
 import org.openqa.selenium.support.pagefactory.AjaxElementLocatorFactory;
 import test.selenium.project.driver.DriverFactory;
 
-import java.time.Duration;
-
 import static org.openqa.selenium.support.PageFactory.initElements;
 
 public abstract class AbstractPage {
