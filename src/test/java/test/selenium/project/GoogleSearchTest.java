@@ -8,9 +8,11 @@ public class GoogleSearchTest extends BaseTest {
 
     @Test
     public void googleSearchTest() {
-        DriverFactory.getDriver().get("https://www.google.com.ua");
         GoogleSearchPage googleSearchPage = new GoogleSearchPage();
+
+        DriverFactory.getDriver().get("https://www.google.com.ua");
         googleSearchPage.enterTextInSearchInput("TestNG");
+        googleSearchPage.clickOnSubmitButton();
     }
 
 }

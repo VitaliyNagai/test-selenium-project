@@ -7,7 +7,14 @@ public class GoogleSearchPage extends AbstractPage{
     @FindBy(css = "input[name='q']")
     private WebElement searchInput;
 
+    @FindBy(xpath = "//input[@name='btnK']")
+    private WebElement submitButton;
+
     public void enterTextInSearchInput(String text){
         searchInput.sendKeys(text);
+    }
+
+    public void clickOnSubmitButton() {
+        submitButton.submit();
     }
 }
