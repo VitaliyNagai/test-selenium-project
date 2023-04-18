@@ -4,7 +4,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 public class GoogleSearchPage extends AbstractPage{
-    @FindBy(css = "input[name='q']")
+    @FindBy(css = "textarea[name='q']")
     private WebElement searchInput;
 
     @FindBy(xpath = "//input[@name='btnK']")

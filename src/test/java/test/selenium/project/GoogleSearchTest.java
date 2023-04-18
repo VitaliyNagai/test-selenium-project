@@ -14,7 +14,7 @@ public class GoogleSearchTest extends BaseTest {
         GoogleSearchPage googleSearchPage = new GoogleSearchPage();
         GoogleResultPage googleResultPage = new GoogleResultPage();
 
-        DriverFactory.getDriver().get("https://www.google.com.ua");
+        DriverFactory.getDriver().get("https://www.google.com");
         googleSearchPage.enterTextInSearchInput(SEARCH_TEXT);
         googleSearchPage.clickOnSubmitButton();
 

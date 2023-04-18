@@ -11,9 +11,9 @@
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
-        <version.testng>7.6.1</version.testng>
-        <version.selenium-java>4.3.0</version.selenium-java>
-        <version.webdrivermanager>5.2.3</version.webdrivermanager>
+        <version.testng>7.7.1</version.testng>
+        <version.selenium-java>4.8.3</version.selenium-java>
+        <version.webdrivermanager>5.3.2</version.webdrivermanager>
     </properties>
 
     <dependencies>
